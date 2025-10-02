@@ -1,0 +1,55 @@
+/* Background with a calm gradient */
+.container-login100 {
+  background: linear-gradient(135deg, #1e3c72, #2a5298); /* deep blue shades */
+}
+
+/* Card for the login form */
+.wrap-login100 {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+/* Title banner overlay */
+.login100-form-title::before {
+  background-color: rgba(30, 60, 114, 0.75); /* semi-transparent academic blue */
+}
+
+/* Form title */
+.login100-form-title-1 {
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Input field labels */
+.label-input100 {
+  color: #2a5298; /* navy blue */
+  font-weight: 600;
+}
+
+/* Input borders on focus */
+.focus-input100::before {
+  background: #1abc9c; /* soft green accent */
+}
+
+/* Login button */
+.login100-form-btn {
+  background-color: #1abc9c; /* educational green */
+  color: #ffffff;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease;
+}
+
+.login100-form-btn:hover {
+  background-color: #159a80; /* darker green */
+}
+
+/* Placeholder text */
+.input100::placeholder {
+  color: #888;
+  font-style: italic;
+}
